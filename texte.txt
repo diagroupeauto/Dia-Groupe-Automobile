@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dia & Groupe Automobile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin-top: 10px;
+      font-style: italic;
+    }
+    nav {
+      background: #002244;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      color: #003366;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #002244;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+    .socials a {
+      margin: 0 10px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dia & Groupe Automobile</h1>
+    <p>Informer — Innover — Propulser l'emploi</p>
+  </header>
+
+  <nav>
+    <a href="#apropos">À propos</a>
+    <a href="#services">Services</a>
+    <a href="#vision">Notre Vision</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>
+      Dia & Groupe Automobile est une entreprise basée à Keur Massar (Dakar), spécialisée dans la vente de véhicules, 
+      de pièces détachées et les services de diagnostic et réparation. Fondée par Ousmane Dia, notre mission est de 
+      rendre l'automobile accessible, fiable et durable.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+      <li>🚗 Vente de voitures neuves et d’occasion</li>
+      <li>🔧 Vente de pièces détachées certifiées</li>
+      <li>🛠️ Diagnostic auto complet</li>
+      <li>🧰 Réparation mécanique et électrique</li>
+    </ul>
+  </section>
+
+  <section id="vision">
+    <h2>Notre Vision</h2>
+    <p>
+      Au-delà de la performance commerciale, notre objectif est de bâtir un écosystème qui crée de la valeur locale. 
+      Grâce au numérique et au marketing digital, nous voulons :
+    </p>
+    <ul>
+      <li>🌍 Donner de la visibilité à nos services</li>
+      <li>💼 Créer des emplois pour les jeunes Sénégalais</li>
+      <li>📱 Moderniser l'expérience client dans le secteur automobile</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      <p>📍 Dakar, Keur Massar</p>
+      <p>📞 +221 77 510 64 99 / +221 76 155 64 99</p>
+      <p>✉️ 775106499dia@gmail.com</p>
+    </div>
+    <div class="socials">
+      <p>Suivez-nous :</p>
+      <a href="#">Facebook</a> |
+      <a href="#">WhatsApp</a> |
+      <a href="#">TikTok</a> |
+      <a href="#">YouTube</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dia & Groupe Automobile — Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
